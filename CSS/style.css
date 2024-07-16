@@ -1,0 +1,274 @@
+html{
+    font-size: 25px;
+    /* background-color: #cadcfc; */
+    /* background-color: whitesmoke; */
+}
+
+*{
+    padding: 0;
+    margin 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background: whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 4%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    /* background-color: #00246B; */
+    /* background-color: #cadcfc; */
+}
+
+.header .logo { 
+    width: 30px;
+    /* background-color: #00246B; */
+    /* color: black; */
+}
+
+.navbar a {
+    font-size: 20px;
+    padding: 0px 5px;
+    margin: 0px 5px;
+    cursor: pointer;
+    word-spacing: 3px;
+    color: black;
+    text-transform: uppercase;  
+}
+
+.navbar :hover{
+    color: rgb(189, 161, 111);
+}
+
+#login-btn {
+    width: 32px;
+    color: burlywood;
+    /* height: 28px; */
+    /* border-radius: 49%;
+    padding: 3px;
+    padding-right: 3px;
+    text-align: center; */
+}
+
+.icons {
+    color: burlywood;
+}
+
+.icons :hover{
+    /* color: rgb(189, 161, 111); */
+}
+
+.carousel-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.carousel-slide {
+    text-align: center;
+    background-position: center;
+    display: block;
+    width: 100%;
+    padding: 10px; */
+    height: auto; 
+}
+
+.carousel-dots {
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.car-dot {
+    background: rebeccapurple;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+/* .car-dot-2 {
+    background: grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.car-dot-3 {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.car-dot-4 {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+} */
+
+.less-than .greater-than {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.less-than {
+    left: 10px;
+}
+
+.greater-than {
+    right: 10px;
+}
+
+.section-1 {
+    width: 150px;
+    margin: 20px;
+    border: 2px solid black ;
+    text-transform: capitalize;
+    transform: skewX(-15deg);
+    background-color: #cadcfc;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+
+hr {
+    border-bottom: 2px solid black;
+    margin: 20px;
+    margin-top: 0;
+}
+
+.content {
+  column-gap: 10%;
+  display: flex;
+  margin: 1rem;
+  margin-left: 1rem;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.content-1 {
+    width: 10rem;
+}
+
+.content-2 {
+    height: 15rem;
+    
+}
+.content-3 {
+    width: 10rem;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.section-2 {
+    width: 150px;
+    margin: 20px;
+    border: 2px solid black ;
+    text-transform: capitalize;
+    transform: skewX(-15deg);
+    background-color: #cadcfc;
+    display: inline-flex;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+.section {
+    display: flex;
+    margin: 25px;
+    column-gap: 9%;
+    padding: 1.5rem;
+    outline: 0.25rem solid #cadcfc;
+    outline-offset: 5px;
+}
+
+.section1 {
+    width: 12rem;
+    height: 7rem;
+    transform: skewX(-15deg);
+    position: relative;
+    top: 1.5rem;
+}
+.section2 {
+    width: 15rem;
+    height: 10rem;
+    transform: skewX(-15deg);
+}
+.section3 {
+    width: 12rem;
+    height: 7rem;
+    transform: skewX(-15deg);
+    position: relative;
+    top: 1.5rem;
+}
+
+.section-2-dots {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 2.5rem;
+}
+
+.sec-2-dot1 {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.sec-2-dot2 {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.sec-2-dot3 {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.sec-2-dot4 {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+.logo-b {
+    width: 30px;
+    margin-top: 0;
+    margin: 0px 20px;
+}
